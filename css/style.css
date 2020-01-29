@@ -6,12 +6,19 @@ font-family: 'Titillium Web', sans-serif;
 font-family: 'Josefin Sans', sans-serif; */
 
 /* code to keep track of divs */
-.new:nth-child(odd) {
-  background-color: red;
+h1 {  
+  font-family: 'Sigmar One', cursive;
+  color: azure;
+  font-size: 2rem;
 }
 
-.new:nth-child(even) {
-  background-color: blue;
+#banner {
+  background-image: url("../img/code.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  height: 30vh;
+  background-color: red;
 }
 
 @media (min-width: 576px) {
@@ -20,6 +27,8 @@ font-family: 'Josefin Sans', sans-serif; */
     min-width: 70vw;
   }
 
-
+  #banner {
+    height: 20vh;
+  }
 
 }
