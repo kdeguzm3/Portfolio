@@ -13,3 +13,13 @@ font-family: 'Josefin Sans', sans-serif; */
 .new:nth-child(even) {
   background-color: blue;
 }
+
+@media (min-width: 576px) {
+  nav::before {
+    content: "";
+    min-width: 70vw;
+  }
+
+
+
+}
